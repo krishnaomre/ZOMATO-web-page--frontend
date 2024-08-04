@@ -1,0 +1,282 @@
+
+
+
+/* nav #zomato .img1{
+    height: 90px;
+    height: 90px; */
+/* } */
+
+.inp input{
+
+     height: 35px;
+     width: 380px;
+     border-radius: 2px solid gray;
+}
+
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+
+    padding: 8px 60px;
+    align-items: center;
+    align-items: center;
+    list-style: none;
+    
+   
+
+
+}
+.links{
+    display:flex;
+    gap:24px;
+    flex-wrap: wrap;
+}
+div{
+    list-style-type: none;
+}
+
+
+
+
+.container2{
+    display: flex;
+    gap: 20px;
+    padding-left: 150px;
+    gap: 35px;
+    flex-direction: row;
+   
+border-bottom: 1px solid gray;
+
+flex-wrap: wrap;
+
+}
+.container2  .svg{
+    border-radius: 10px;
+    border: 3px solid transparent;
+    padding: 3px;
+
+
+}
+.svg:hover{
+    background-color:gold;
+}
+.container2{
+    display: flex;
+    font-family: Okra, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: larger;
+    margin-top:10px;
+    margin-bottom:7px;
+    margin-left: 0px;
+    
+    
+}
+.container2 a span:hover{
+    color: brown;
+}
+
+
+a:link{
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
+}
+a:hover{
+    color: blacks;
+}
+
+.container3{
+    /* margin-left: 120px;
+    margin-right: 10px; */
+    background-color:lightgray(250, 244, 245);
+    
+    
+}
+.container3 .food{
+    display: flex;
+    gap:50px;
+    flex-wrap: wrap;
+}
+
+
+img{
+    border-radius: 80px;
+    height: 135px;
+    width: 135px;
+
+}
+.container4{
+    /* margin-left: 160px; */
+}
+.container4 .brands{
+    display: flex;
+    gap:50px;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+    
+    .container5{
+        /* margin-left: 50px; */
+    }
+    .container5 .colls{
+        display: flex;
+        gap: 5px;
+        flex-wrap: wrap;
+    }
+    .img2{
+        border-radius: 10px;
+        height: 230px;
+        width: 280px;
+    }
+
+    .container6{
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+    .container6 .colls2{
+        display: flex;
+        gap:5px;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+    }
+    .img3{
+        border-radius: 10px;
+        height: 230px;
+        width: 280px;
+    }
+
+    .txt p{
+        
+        float: right;
+        display: inline-flexbox;
+
+}
+    /* .txt {
+        border-bottom:  1px solid gray;
+    } */
+    .container1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+     .container1 ul{
+        text-decoration: none;
+        color: gray;
+        display: flex;
+        gap: 35px;
+        list-style: none;
+        margin-top: 50px;
+        /* position: fixed;
+        top:50x;
+        z-index: 10;
+         */
+     } 
+        
+.btn{
+    background: none;
+    border: 2px solid gray;
+    padding: 10px 24px;
+    border-radius: 10px;
+    font-family: Okra, Helvetica, sans-serif;
+    
+    
+}
+
+.btn a{
+    color: rgb(146, 146, 146);
+    font-size: 1.1rem;
+    
+}
+.container1{
+    position: sticky; 
+    top:0px;
+    background-color: white;
+    display: flex;
+    justify-content: start;
+}
+
+
+nav a:visited{
+    color:gray;
+}
+nav a:hover{
+    color: black;
+}
+.side a:visited{
+    color:gray;
+}
+    
+ .collection:hover{
+    background-color:antiquewhite;
+ } 
+ .collection{
+   border-radius: 10px;
+   border: 0.8em;px solid transparent;
+ } 
+ .rating{
+    float: right;
+    border-radius: 6px;
+    border: 1px solid transparent;
+    background-color: rgb(165, 235, 165);
+    display: flex;
+    height: 50px;
+    color:white;
+ } 
+ div .rating{
+    height: 20px;
+    color:white;
+ }
+ .collection2:hover{
+    background-color:antiquewhite;
+ }
+ .collection2{
+    border-radius: 10px;
+   border: 0.8em;px solid transparent;
+ } 
+ .search {
+    display: flex;
+    width: 55vw;
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 10px;
+    background: white;
+    padding: 5px 4px
+}
+.search .search-item{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+/* .search .search-item p {
+    color: gray;
+    border-right: 1px solide gray;
+    font-size: 15px;
+    margin-right: 10px;
+    padding-left: 10px;
+} */
+.search .search-item input {
+    /* outline: none;
+    border: none; */
+    width: 500px;
+    height: 45px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.search .search-item i{
+    position:absolute;}
+.search .search-item:first-child{
+    width: 30%;
+    color: rgb(255, 126, 139);
+}
+.search .search-item:last-child{
+    width: 70%;
+    color: gray;
+}
+ 
